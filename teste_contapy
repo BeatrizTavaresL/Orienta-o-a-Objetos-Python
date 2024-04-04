@@ -1,0 +1,13 @@
+from exercícios_conta import criar_conta, deposita, extrato, saque
+
+conta = criar_conta(123, 'Beatriz', 55.0, 1000.0)
+deposita(conta, 15.0)
+# extrato(conta)
+saque(conta, 20.0)
+conta['saldo'] = conta['saldo'] + 100.0
+extrato(conta)
+
+
+
+
+
